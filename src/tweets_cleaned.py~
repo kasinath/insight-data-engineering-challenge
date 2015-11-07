@@ -1,0 +1,28 @@
+# example of program that calculates the number of tweets cleaned
+import sys
+import json
+
+
+
+def cleanTweets(inputTweets):
+	outputTweets = []
+	for tweet in inputTweets:
+		tweet = json.loads(tweet)
+		if "text" in tweet and "created_at" in tweet:
+			print tweet["text"]
+
+	return (outputTweets,None)
+
+
+def main(argv):
+	inputTweetsFile = argv[0]
+	outputTweetsFile = argv[1]
+	inputTweets = []
+	with open(inputTweetsFile,"r") as fin :
+		inputTweets = fin.readlines()
+	(outputTweets,cntUnicode) = cleanTweets(inputTweets)
+
+
+
+if __name__=="__main__":
+	main(sys.argv[1:])
