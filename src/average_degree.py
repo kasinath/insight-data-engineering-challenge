@@ -10,7 +10,7 @@ def getHashTags(hashtags):
         tag = (tag["text"]).encode("ascii","ignore").lower()
         if len(tag) > 0:
             tags.append(tag)
-    return tags
+    return list(set(tags))
 
 def lessThanAMinute(time1,time2):
     ts1 =  datetime.datetime.strptime(time1,'%a %b %d %H:%M:%S +0000 %Y')
