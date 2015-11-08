@@ -15,14 +15,14 @@ As new tweets come in, edges formed with tweets older than 60 seconds from the t
 The code for these tasks are written in python. The code uses standard libraries of python 2.7
 
 ## Instructions to Run the code
-1. clone the git repository
+1.Clone the git repository
 ```
 mkdir lkasinathan-insight-submission
 cd lkasinathan-insight-submission
 git clone git@github.com:kasinath/insight-data-engineering-challenge.git
 ```
 
-2. Run run.sh from project root
+2.Run run.sh from project root
 ```
 cd inisght-data-engineering-challenge
 ./run.sh
