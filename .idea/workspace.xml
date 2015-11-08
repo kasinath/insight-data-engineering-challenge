@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a99126a-a83a-45b6-8a4a-3f978cff3550" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweet_input/TEST_TASK1_escape.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tweet_input/TEST_TASK1_unicode.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweet_input/tweets1000.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweet_input/tweets300.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweet_output/ft1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweet_output/ft2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweet_output/ft2_tweets100.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweet_output/tweets.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tweet_output/tweets100.txt" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tweet_input/tweets100.txt" afterPath="$PROJECT_DIR$/tweet_input/TEST_TASK2_graph.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/average_degree.py" afterPath="$PROJECT_DIR$/src/average_degree.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.sh" afterPath="$PROJECT_DIR$/run.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tweets_cleaned.py" afterPath="$PROJECT_DIR$/src/tweets_cleaned.py" />
     </list>
     <ignored path="insight-data-engineering-challenge.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.5">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8263773">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -131,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5759599">
+            <state vertical-scroll-proportion="-11.5">
               <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
               <folding />
             </state>
@@ -154,7 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/tweets_cleaned.py" />
         <option value="$PROJECT_DIR$/tweet_input/tweets1000.txt" />
         <option value="$PROJECT_DIR$/tweet_output/TEST_TASK1_escape.txt" />
@@ -164,6 +149,7 @@
         <option value="$PROJECT_DIR$/tweet_input/TEST_TASK2_graph.txt" />
         <option value="$PROJECT_DIR$/src/average_degree.py" />
         <option value="$PROJECT_DIR$/run.sh" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -701,14 +687,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.5">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tweet_input/tweets.txt">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state />
@@ -784,8 +762,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/run.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5759599">
+        <state vertical-scroll-proportion="-11.5">
           <caret line="23" column="87" selection-start-line="23" selection-start-column="87" selection-end-line="23" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8263773">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding />
         </state>
       </provider>

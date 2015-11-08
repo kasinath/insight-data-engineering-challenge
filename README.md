@@ -12,24 +12,24 @@ The graph should just be  using tweets that arrived in the last 60 seconds as co
 As new tweets come in, edges formed with tweets older than 60 seconds from the timstamp of the latest tweet should be evicted.
 
 ## Pre Requisites to Run the code
-The code for these tasks are written in python. The code uses standard libraries of python 2.7
+The code for these tasks are written in python. The code uses standard libraries of python 2.7.
 Python 2.7 must be invocable using the command "python"
 
 ## Instructions to Run the code
 1.Clone the git repository
 ```
-mkdir lkasinathan-insight-submission
-cd lkasinathan-insight-submission
-git clone git@github.com:kasinath/insight-data-engineering-challenge.git
+#mkdir lkasinathan-insight-submission
+#cd lkasinathan-insight-submission
+#git clone git@github.com:kasinath/insight-data-engineering-challenge.git
 ```
 
 2.Make run.sh executable
 ```
-cd inisght-data-engineering-challenge
-chmod +x run.sh
+#cd inisght-data-engineering-challenge
+#chmod +x run.sh
 ```
 
 3.Run run.sh from project root
 ```
-./run.sh
+#./run.sh
 ```
