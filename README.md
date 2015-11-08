@@ -25,7 +25,7 @@ Python 2.7 must be invocable using the command "python"
 
 2.Make run.sh executable
 ```
-#cd inisght-data-engineering-challenge
+#cd insight-data-engineering-challenge
 #chmod +x run.sh
 ```
 
