@@ -28,12 +28,10 @@ def extractHashTagsAndTimestamps(inpTweets):
         tweet["created_at"] =  t["created_at"]
         tweet["hashtags"] = getHashTags(t["entities"]["hashtags"])
         tweets.append(tweet)
-        print tweet["hashtags"]
     return tweets
 
 def getHashTagLinks(tags):
     return itertools.permutations(tags,2)
-
 
 def generateGraph(tweets):
     avgDegree = []
@@ -57,7 +55,6 @@ def generateGraph(tweets):
                     graph[edge[0]].append(edge[1])
                 else:
                     graph[edge[0]] = [edge[1]]
-        j+=1
 
         #Count Degree
         degree = 0.0
@@ -67,7 +64,6 @@ def generateGraph(tweets):
             for node in graph:
                 degree += len(set((graph[node])))
             avgDegree.append(format(round(degree/len(graph),2),'.2f'))
-        print avgDegree[-1]
     return avgDegree
 
 #Print Instructions to run this code
@@ -86,11 +82,14 @@ def main(argv):
     with open(inputTweetsFile,"r") as fIn :
         inputTweets = fIn.readlines()
 
-    #Extract HashTag List and TImestamp for each tweet
+    #Extract HashTag List and Timestamp for each tweet
     inputTweets = extractHashTagsAndTimestamps(inputTweets)
 
     #GenerateGraph for every tweet
     output = generateGraph(inputTweets)
+
+    #Clean the Output File if it already exists
+    open(outputTweetsFile, 'w').close()
 
     #Save Avg Degree for each incoming tweet
     with open(outputTweetsFile,"w") as fOut:

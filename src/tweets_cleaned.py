@@ -41,12 +41,14 @@ def main(argv):
 		inputTweets = fIn.readlines()
 	(cleanedTweets,noUnicodeTweets) = cleanTweets(inputTweets)
 
+	#Clean the Output File if it already exists
+	open(outputTweetsFile, 'w').close()
+
 	#Save cleaned tweets and count of tweets with unicode in tweet text in output file.
 	with open(outputTweetsFile,"w") as fOut:
 		for cleanTweet in cleanedTweets:
 			fOut.write(cleanTweet + "\n")
 		fOut.write("\n" + str(noUnicodeTweets) +" tweets contained unicode.\n")
-
 
 if __name__=="__main__":
 	main(sys.argv[1:])
